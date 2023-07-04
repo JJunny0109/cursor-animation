@@ -1,0 +1,22 @@
+body{
+	cursor: none;
+	margin: 0;
+	height: 100vh;
+}
+.cursor-pointed{
+	width: 20px; height: 20px;
+	background-color: #000;
+	border-radius: 10px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 999;
+	transition: background-color .2s, border-color .2s, border-radius .2s, transform .6s
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
